@@ -16,11 +16,12 @@ class Splash extends StatefulWidget {
 
 class _SplashState extends State<Splash> {
   @override
+  // ignore: duplicate_ignore
   void initState() {
     // ignore: todo
     // TODO: implement initState
     super.initState();
-    // ignore: prefer_const_constructors
+
     Future.delayed(Duration(seconds: 5), () {
       Navigator.pushReplacement(
         context,

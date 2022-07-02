@@ -2,6 +2,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'package:flutter_application_124/welcome.dart';
+
 bool? checkBoxValue = false;
 
 class Welcome extends StatefulWidget {

@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_124/splash.dart';
+import 'package:flutter_application_124/welcomeback.dart';
 
 void main() {
   // ignore: prefer_const_constructors
-  runApp( MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -27,8 +28,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       // ignore: prefer_const_constructors
-      home: Splash(),
+      home: WelcomeBack(),
     );
   }
 }
-
